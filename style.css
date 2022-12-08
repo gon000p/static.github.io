@@ -1,0 +1,35 @@
+#hero-page {
+  padding: 30px;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(2 1fr);
+  grid-gap: 10px;
+  place-items: center;
+}
+
+#main-intro {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 43px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#main-profilepic img{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 824px;
+    height: 982px;
+    left: 688px;
+    top: 0px;
+}
